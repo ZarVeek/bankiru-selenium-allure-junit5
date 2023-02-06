@@ -16,7 +16,7 @@ public class InitManager {
     /**
      * Менеджер WebDriver
      *
-     * @see DriverManager#getDriverManager()
+     * @see DriverManager#getInstance()
      */
     private static final DriverManager driverManager = DriverManager.getDriverManager();
 

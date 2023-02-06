@@ -96,13 +96,6 @@
           <systemPropertyVariables>
             <allure.results.directory>${project.build.directory}/reports/allure-results</allure.results.directory>
           </systemPropertyVariables>
-          <properties>
-            <property>
-              <name>listener</name>
-              <value>org.example.utils.AllureListener</value>
-            </property>
-          </properties>
-
         </configuration>
         <dependencies>
           <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
